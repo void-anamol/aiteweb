@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  background: #FCFCFC;
+}
+
+.hero-wrapper .hero-left .heronav {
+  height: 15vh;
+}
+
+.hero-wrapper .hero-left .heronav img {
+  float: left;
+}
+
+.hero-wrapper .hero-left .heronav ul {
+  float: right;
+}
+
+.hero-wrapper .hero-left .heronav ul li {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+.hero-wrapper .hero-left .heronav ul li a {
+  opacity: 0.3;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.hero-wrapper .hero-left .heronav ul li a.active {
+  opacity: 1 !important;
+  font-weight: 500;
+}
+
+.hero-wrapper .hero-left .heronav ul li a:hover {
+  opacity: 1;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.hero-wrapper .hero-left .heroquote {
+  height: 65vh;
+}
+
+.hero-wrapper .hero-left .hero-bottom {
+  height: 20vh;
+}
+
+.upcomming-wrapper {
+  background: rgba(70, 109, 255, 0.1);
+}
+/*# sourceMappingURL=styles.css.map */

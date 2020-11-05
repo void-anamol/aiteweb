@@ -1,0 +1,61 @@
+$primaryBlue:#466DFF;
+$primaryYellow:#F3C729;
+$white:#FCFCFC;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bitter', serif;
+    background:$white
+}
+
+.hero-wrapper{
+    .hero-left{
+        .heronav{
+            height:15vh;
+            img{
+                float:left;
+            }
+
+            ul{
+                float:right;
+                li{
+                    display: inline-block;
+                    padding:0.5em 1em;
+        
+                    a{                    
+                        opacity:0.3;
+                        transition: 0.2s ease-in-out;
+                    }                
+        
+                    a.active{
+                        opacity:1!important;
+                        font-weight: 500;
+                    }
+        
+                    a:hover{
+                        opacity:1;
+                        transition: 0.2s ease-in-out;
+                    }
+                }
+            }
+
+        }
+        .heroquote{
+            height:65vh;
+        }
+        .hero-bottom{
+            height:20vh;
+        }
+    }
+}
+
+.about-wrapper{
+
+}
+
+.upcomming-wrapper{
+    background:rgba($primaryBlue,0.1)
+}
